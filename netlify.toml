@@ -1,2 +1,6 @@
 [build]
   publish = "."
+
+# netlify/functions/drive-work.mjs serves the live Google Drive listing at /api/drive-work
+[functions]
+  directory = "netlify/functions"
